@@ -4,7 +4,6 @@ A RESTful E-Commerce Backend API built with Django REST Framework (DRF) and JWT 
 This project provides the core backend functionalities of an online shopping platform including user authentication, product management, carts, orders, and checkout.
 
 🚀 Features
-
 User Authentication (JWT)
 
 Register, Login, Logout
@@ -42,7 +41,6 @@ Reviews & Ratings (Optional)
 Customers can leave reviews on purchased products
 
 🛠️ Tech Stack
-
 Backend Framework: Django 5, Django REST Framework
 
 Authentication: JWT (djangorestframework-simplejwt)
@@ -88,7 +86,6 @@ Server runs on:
 
 🔑 API Endpoints
 🔐 Authentication
-
 POST /api/users/ → Register new user
 
 POST /api/token/ → Login (get JWT access & refresh tokens)
@@ -96,7 +93,6 @@ POST /api/token/ → Login (get JWT access & refresh tokens)
 POST /api/token/refresh/ → Refresh token
 
 📦 Products
-
 GET /api/products/ → List products
 
 POST /api/products/ → Add product (Vendor/Admin only)
@@ -106,7 +102,6 @@ PUT /api/products/{id}/ → Update product
 DELETE /api/products/{id}/ → Delete product
 
 🛒 Cart
-
 GET /api/carts/ → View user cart
 
 POST /api/carts/ → Create cart
@@ -114,7 +109,6 @@ POST /api/carts/ → Create cart
 POST /api/cartitems/ → Add item to cart
 
 📑 Orders
-
 POST /api/orders/ → Create order
 
 GET /api/orders/ → View user orders
@@ -122,7 +116,6 @@ GET /api/orders/ → View user orders
 POST /api/orders/{id}/checkout/ → Checkout order
 
 🔍 Testing with Postman
-
 Register user → POST /api/users/
 
 Login → POST /api/token/ → copy access token
@@ -136,7 +129,6 @@ Now test Products → Cart → Orders → Checkout
 
 
 ✅ Future Improvements
-
 Integrate real payment gateways (Stripe, PayPal)
 
 Add inventory tracking system
@@ -146,6 +138,5 @@ Enable email notifications for order confirmation
 Implement unit tests (pytest)
 
 👨‍💻 Author
-
 Bibek Shah
 Backend Developer | Django & DRF Enthusiast
